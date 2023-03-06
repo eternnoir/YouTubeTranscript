@@ -3,7 +3,9 @@ import yt_transcript
 import uuid
 import os
 
-st.title('Youtube Transcript')
+st.title('WhisperSubs')
+st.write('Automatic Subtitle Generation for YouTube using OpenAI Whisper API')
+st.write('利用 OpenAI Whisper API 轉換 YouTube 影片為自動生成字幕')
 youtubeUrl = st.text_input('Youtube URL', '')
 col1, col2 = st.columns(2)
 
